@@ -1,0 +1,2 @@
+# angularAMD
+Angular AMD Seed
