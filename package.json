@@ -1,0 +1,27 @@
+{
+  "name": "angular_amd-seed",
+  "version": "1.0.0",
+  "description": "Angular 1.5 AMD Starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "bigDuro",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.5.5",
+    "angular-amd": "^0.2.1",
+    "angular-route": "^1.5.5",
+    "grunt": "^1.0.1",
+    "grunt-contrib-requirejs": "^1.0.0",
+    "jquery": "^2.2.3",
+    "requirejs": "^2.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-http-server": "^1.16.0",
+    "grunt-karma": "^0.12.2",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-jasmine": "^0.3.8"
+  }
+}

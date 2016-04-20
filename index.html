@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- <link rel="stylesheet" type="text/css" href="app/css/app.css"> -->
+</head>
+<body ng-controller="MainCtrl">
+	<div class="header" ng-include='"app/include/header.html"'></div>
+	<h1>Message: {{message}}</h1>
+	<div ng-view></div>
+	<div custom-directive></div>
+	<div class="footer" ng-include='"app/include/footer.html"'></div>
+	
+</body>
+<!-- <script src="node_modules/requirejs/require.js" data-main="app/main.js"></script> -->
+<script src="node_modules/requirejs/require.js" data-main="app/dist/angular_amd-seed.min.js"></script>
+</html>
