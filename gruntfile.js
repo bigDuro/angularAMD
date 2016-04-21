@@ -5,8 +5,8 @@ module.exports = function(grunt){
 		requirejs : {
 			compile : {
 				options : {
-					baseUrl : './app/',
-					mainConfigFile : './app/main.js',
+					baseUrl : '../',
+					mainConfigFile : 'angularAMD/app/js/main.js',
 					wrapShim : true,
 					optimize : 'none',
 					optimizeCss : 'none',
@@ -17,7 +17,7 @@ module.exports = function(grunt){
 		},
 		watch: {
 			scripts: {
-				files: ['app/js/*.js'],
+				files: ['app/js/*.js', 'app/js/**/*.js'],
 				tasks: ['requirejs:compile', 'http-server'],
 				options: {
 					spawn: false,
