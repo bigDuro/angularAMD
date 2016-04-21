@@ -33,8 +33,8 @@ module.exports = function(grunt){
 		        showDir : true,
 		        autoIndex: true,
 		        ext: "html",
-		        runInBackground: false,
-		        openBrowser : true,
+		        runInBackground: true,
+		        openBrowser : false,
 		        customPages: {}
 		    }
 		}
@@ -44,5 +44,5 @@ module.exports = function(grunt){
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-http-server');
 
-	grunt.registerTask('default', ['watch']);
+	grunt.registerTask('default', ['http-server', 'watch']);
 }
